@@ -1,0 +1,189 @@
+/* P6.HTML CODE */
+.cssColor1{
+      background-color: grey;
+}
+.cssColor2{
+      background-color:#008080;
+}
+.cssColor3{
+      background-color: rgb(0, 0, 255);
+}
+.commonCssColors{
+      color: white;
+      padding: 20px;
+      margin: 20px;
+}
+/* P7.HTML CODE */
+.jumbotron{
+      background-color: blueviolet;
+      border-radius: 10px;
+}
+.cssFont{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 20px;
+      font-variant: small-caps;
+}
+/* P8.CSS CODE */
+.cssText{
+      text-decoration: underline;
+      line-height: 2;
+      letter-spacing: 2px;
+      word-spacing: 20px;
+      text-transform: uppercase;
+      text-align: justify;
+}
+.cssText>p{
+      text-indent: 100px; /* Text-indent means the space given at the beginning of the paragraph */
+}
+
+/* P9..HTML code */
+.navBar{
+      background-color: coral;
+}
+.navBar>ul{
+      list-style: none;
+      padding: 0%;
+      margin: 0%;
+      float: right;
+}
+.navBar>ul>li{
+      display: inline-block;
+      padding: 20px;
+}
+.navBar>ul>li:hover{
+      background-color: #fff;
+}
+.navBar>ul>li>a{
+      text-decoration: none;
+      color: #fff;
+}
+.navBar>ul>li:hover a{
+      color: blue;
+}
+.navBar>img{
+      height: 54px;
+}
+/* p.10 html code */
+.list-maker-position>ol>li{
+      background-color: teal;
+      padding: 20px;
+      margin-bottom: 20px;
+      list-style-position: inside;
+}
+.list-maker-position>ol>li>a{
+      text-decoration: none;
+      color: #fff;
+}
+.list-maker-position>ol>li::marker{
+      color: #fff;
+      font-size: 17px;
+      font-weight: bold;
+}
+/* p11.html code */
+.list-icon>ul>li{
+      list-style: inside;
+      list-style-image: url(../images/pin.png);
+}
+/*p12.html code */
+.list-shorthand>ul>li{
+      background-color: teal;
+      padding: 20px;
+      margin-bottom: 20px;
+      /* list-style: none;
+      list-style-position: inside;
+      list-style-image: url(../images/pin.png); */
+      list-style: none inside url(../images/pin.png);
+}
+/*p13.html code */
+.empty-cell-table{
+      empty-cells: hide;
+}
+/*p14.html code */
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+      border: 1px solid #000;
+      padding: 20px;
+      border-collapse: collapse;
+}     
+.odd-even-table tr:nth-child(odd){
+      background-color: grey;
+}
+.odd-even-table tr:nth-child(even){
+      background-color: lightgrey;
+}
+.odd-even-table tr:hover{
+      background-color: #ad9a9a;
+}
+.odd-even-table>caption{
+      color: #808080;
+      font-weight: bold;
+      caption-side: bottom;
+}
+.odd-even-table td{
+      text-align: center;
+}
+/* p15.html */
+.layout-table, .layout-table th, .layout-table td{
+      border: 2px solid #808080;
+      padding: 20px;
+      border-collapse: collapse;
+}
+.layout-table{
+      width: 15%;
+      table-layout: fixed;
+}
+.layout-table td, .layout-table td{
+      overflow: scroll;
+}
+/* p16.html */
+*{
+      padding: 0%;
+      margin: 0%;
+}
+header{
+      background-color: coral;
+}
+header>nav>ul{
+      list-style-type: none;
+      float: right;
+}
+header>nav>ul>li{
+      display: inline-block;
+      padding: 20px;
+}
+header>nav>ul>li:hover{
+      background-color: white;
+}
+header>nav>ul>li a{
+      text-decoration: none;
+      color: blue;
+}
+header>nav>img{
+      height: 54px;
+}
+/* p17.html */
+.banner1{
+      background-color: crimson;
+}
+.bannercommonclass{
+      color: lightblue;
+      padding: 30px;
+      height: 79vh;
+      text-align: center;
+}
+.bannercommonclass>h1{
+      font-size: 50px;
+}
+.bannercommonclass>h1:hover{
+      color: darkblue;
+}
+.bannercommonclass>p:hover{
+      color: darkblue;
+}
+/* p18.html */
+.banner2{
+     background: url(../images/one8\ logo.png)no-repeat center;
+     background-size: 90vh;
+     background-color: coral;
+}
